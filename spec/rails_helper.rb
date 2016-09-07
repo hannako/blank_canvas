@@ -7,6 +7,13 @@ require 'spec_helper'
 require 'rspec/rails'
 
 require 'capybara/rails'
+require 'capybara/poltergeist'
+
+Capybara.register_driver :poltergeist do |app|
+  Capybara::Poltergeist::Driver.new(app, :window_size => [1920, 1080], :phantomjs_logger => nil)
+end
+Capybara.javascript_driver = :poltergeist
+
 # Add additional requires below this line. Rails is not loaded until this point!
 
 # Requires supporting ruby files with custom matchers and macros, etc, in

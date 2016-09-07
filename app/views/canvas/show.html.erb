@@ -1,0 +1,8 @@
+<% Miro.options[:method] = "histogram" %>
+<% Miro.options[:color_count] = 3 %>
+<% @path = @canva.image.url %>
+<% color = Miro::DominantColors.new("#{Rails.root}" + '/public' + @path.split('?')[0]).to_hex %>
+
+<canvas id="canvas_1" width="50" height="50" style="background-color: <%= color[0] %>;"></canvas>
+<canvas width="50" height="50" style="background-color: <%= color[1] %>;"></canvas>
+<canvas width="50" height="50" style="background-color: <%= color[2] %>;"></canvas>
