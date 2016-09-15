@@ -345,3 +345,51 @@
       font-family: 'Fauna One', serif;
 
     }
+    .field {
+         font-family: 'Playfair Display', serif;
+         font-size: 20px;
+         margin-top: 20px;
+         margin-bottom: 0px;
+         text-align: center;
+       }
+
+
+
+       .field input {
+         width: 300px;
+
+       }
+
+     input[type=checkbox], input[type=radio]
+       .field label {
+         width: 200px;
+         font-size: 15px;
+         margin-top: 0px;
+
+       }
+
+       .field label[for=user_remember_me]{
+         font-size: 15px;
+         width: 100px;
+         margin-top: 0px;
+       }
+
+       .actions {
+         margin-top: 100px;
+         text-align: center;
+
+       }
+
+       .actions input{
+         width: 300px;
+         background-color: #464242;
+         color: white;
+         height: 80px;
+         font-family: 'Playfair Display', serif;
+         font-size: 40px;
+           }
+
+       h2 {
+         margin-bottom: 80px;
+         margin-top: 50px;
+       }
