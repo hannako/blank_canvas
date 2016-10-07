@@ -633,15 +633,18 @@
       }
 
       .paint_view {
-          clear: right;
-          width: 100%;
+        clear: right;
+        width: 100%;
+      }
+      .paint_view svg {
+        height:300px;
       }
 
    }
 
    @media screen and (max-width: 600px) {
      h1 {
-       font-size: 35px;
+       font-size: 8vw;
        margin: 10px 0px 10px 0px;
      }
      .littlePhoto {
