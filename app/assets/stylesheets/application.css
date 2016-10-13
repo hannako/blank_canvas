@@ -269,7 +269,7 @@
 
     .photoFrame {
       width: 300px !important;
-      margin: 30px;
+      margin: 30px 0px 30px 0px;
     }
 
     .photoFrame img {
