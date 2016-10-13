@@ -182,9 +182,8 @@
     .bigBtnDefault {
       background-color: #464242 !important;
       color: white;
-      height: 80px;
-      width: 385px;
-      font-family: 'Playfair Display', serif;
+      padding: 12px 38px 12px 38px;
+      font-family: 'Playfair Display', serif !important;
       font-size: 40px;
       border: none;
       margin: 10px;
@@ -193,9 +192,8 @@
     .bigBtnLighter {
       background-color: #9E9E9E !important;
       color: white;
-      height: 80px;
-      width: 385px;
-      font-family: 'Playfair Display', serif;
+      padding: 12px 38px 12px 38px;
+      font-family: 'Playfair Display', serif !important;
       font-size: 40px;
       border: none;
       margin: 10px;
@@ -204,8 +202,7 @@
     .bigBtnLight {
       background-color: #D1D1D1 !important;
       color: white;
-      height: 80px;
-      width: 385px;
+      padding: 12px 38px 12px 38px;
       font-family: 'Playfair Display', serif;
       font-size: 40px;
       border: none;
@@ -217,7 +214,7 @@
       color: white;
       height: 80px;
       width: 180px;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Playfair Display', serif !important;
       font-size: 25px;
       border: none;
       margin: 10px;
@@ -228,7 +225,7 @@
       color: white;
       height: 80px;
       width: 180px;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Playfair Display', serif !important;
       font-size: 25px;
       border: none;
       margin: 10px;
@@ -239,7 +236,7 @@
       color: white;
       height: 80px;
       width: 180px;
-      font-family: 'Playfair Display', serif;
+      font-family: 'Playfair Display', serif !important;
       font-size: 25px;
       border: none;
       margin: 10px;
@@ -293,7 +290,6 @@
 
     section {
       margin: 20px;
-      width: 500px;
       display: inline-block;
       vertical-align: middle;
     }
@@ -313,11 +309,10 @@
     }
 
   .paintInfo {
-    width: 85%;
-    width: 85%;
-    padding-left: 4%;
+    width: 99%;
+    margin: 10px auto 10px auto;
     font-family: 'Fauna One', serif;
-
+    font-size: 21px;
   }
   .paint_wrapper {
     text-align: center;

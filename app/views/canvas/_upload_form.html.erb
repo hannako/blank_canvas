@@ -8,12 +8,13 @@
   </div>
 
   <div class="imageUploadDiv">
-
-    <span class="actionNumber">1.</span> <button type="button" class="bigBtnDefault" onclick="chooseFile();">Choose an Image</button>
+    <span class="actionNumber">1.</span>
+    <button type="button" class="bigBtnDefault" onclick="chooseFile();">Choose an Image</button>
 
     <div id="fileURL"></div>
 
-    <span class="actionNumber">2.</span><%= f.submit "Show my Colours", :class => 'bigBtnLighter' %>
+    <span class="actionNumber">2.</span><button type="submit" value="Submit" class="bigBtnLighter">Show my Colours</button>
+
   </div>
 
 <% end %>
