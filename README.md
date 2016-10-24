@@ -4,7 +4,7 @@
 
 <a href="https://github.com/hannako">Jess Jones</a> | <a href="https://github.com/bkluczynski">Bart Kluczynski</a> | <a href="https://github.com/nfabacus">Nobuyuki Fujioka</a> | <a href="https://github.com/liskowsky">Karol Lebiedzinski</a> | <a href="https://github.com/benjamin-white">Ben White</a>
 
-This repositry was made for the final challenge of our time with **Makers Academy** during the summer of 2016.
+This repo was made for the final challenge of our time with **Makers Academy** during the summer of 2016.
 It evolved from a simple idea of allowing a user to generate a custom palette from their photos into an interior styling site, with interactive 'paintable' rooms.<br><br>
 We employed Agile practices such as daily stand-ups and deliveing MVPs with XP values of courage, pairing and feedback to complete the project.
 
